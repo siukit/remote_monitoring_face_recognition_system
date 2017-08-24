@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783580050883",
+    "firebase_url": "https://rpiapp-9c594.firebaseio.com",
+    "project_id": "rpiapp-9c594",
+    "storage_bucket": "rpiapp-9c594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783580050883:android:88c15e8012d896dc",
+        "android_client_info": {
+          "package_name": "com.siukit.raspconn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783580050883-ktiv5800uk8uqekd764dfaiq8op1s5mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siukit.raspconn",
+            "certificate_hash": "3132aa8a1d54f3f9d77424caa9e6cb11f835c3bd"
+          }
+        },
+        {
+          "client_id": "783580050883-m34v5kphonp401j1uchguqu2bal0qan0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApuEwiy5tRhCeQUt_wdXOKUkmmoyEsQZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783580050883-m34v5kphonp401j1uchguqu2bal0qan0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPicture"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/tvTimeLabel"
+        android:hint="EntryTime"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivPicture"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/ivPicture"
+        android:hint="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry: "
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/tvEntryTime"
+        android:layout_alignBottom="@+id/tvEntryTime"
+        android:layout_alignStart="@+id/tvName" />
+
+</RelativeLayout>

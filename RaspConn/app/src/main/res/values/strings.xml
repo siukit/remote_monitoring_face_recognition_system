@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RaspConn</string>
+
+    <string-array name="options_array">
+        <item>Options</item>
+        <item>Turn on siren</item>
+        <item>Turn off siren</item>
+        <item>Remove all logs</item>
+    </string-array>
+
+</resources>

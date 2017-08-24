@@ -1,0 +1,32 @@
+| authorized_log | CREATE TABLE `authorized_log` (
+  `pk` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `entry_time` varchar(100) NOT NULL,
+  `picture` longtext NOT NULL,
+  PRIMARY KEY (`pk`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 |
+
+
+| employee_faces | CREATE TABLE `employee_faces` (
+  `name` varchar(100) NOT NULL,
+  `frontal_pic` longtext NOT NULL,
+  `reg_time` varchar(100) NOT NULL,
+  `smile_pic` longtext NOT NULL,
+  `glasses_pic` longtext,
+  PRIMARY KEY (`name`),
+  UNIQUE KEY `name_UNIQUE` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
+
+| system_mode | CREATE TABLE `system_mode` (
+  `mode` varchar(30) NOT NULL,
+  `is_on` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`mode`),
+  UNIQUE KEY `mode_UNIQUE` (`mode`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
+
+| unauthorized_log | CREATE TABLE `unauthorized_log` (
+  `entry_time` varchar(50) NOT NULL,
+  `picture` longtext NOT NULL,
+  `pk` int(50) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`pk`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 |
